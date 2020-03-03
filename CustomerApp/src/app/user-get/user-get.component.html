@@ -1,0 +1,29 @@
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr> 
+            <th scope="col" style="background-color: blueviolet"> Name</th>
+            <th scope="col" style="background-color: blueviolet">Gender</th>
+            <th scope="col" style="background-color: blueviolet">Email</th>
+            <th scope="col" style="background-color: blueviolet">Address</th>
+            <th scope="col" style="background-color: blueviolet">City</th>
+            <th scope="col" style="background-color: blueviolet">State</th>
+            <th scope="col" style="background-color: blueviolet">Country</th>
+            <th scope="col" style="background-color: blueviolet">Hobby</th>
+            <th colspan="2" style="background-color: blueviolet">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of users" style="font: oblique">
+            <td>{{ user.Name }}</td>
+            <td>{{ user.Gender }}</td>
+            <td>{{ user.Email }}</td>
+            <td>{{ user.Address }}</td>
+            <td>{{ user.City }}</td>
+            <td>{{ user.State }}</td>
+            <td>{{ user.Country }}</td>
+            <td>{{ user.HobbyString }}</td>
+            <td><a [routerLink]="['/edit', user._id]" class="btn btn-primary">Edit</a></td>
+            <td><a (click) = "deleteUser(user._id)" class="btn btn-danger">Delete</a>
+        </tr>
+    </tbody>
+</table>
