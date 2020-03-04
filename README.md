@@ -1,16 +1,21 @@
 1. Running Node Server
 
   cd to CustomerServiceAPI
+  
   npm install
+  
   node ./server.js
+  
   Server Will Start Listening on 4000
-
+  
 2. Running Clientside Application
 
   cd to CustomerApp
+  
   npm install
+  
   ng serve -o
-
+  
 3. Angular Server Will start on 4200
 
   Go to http://localhost:4200/users
