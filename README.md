@@ -1,25 +1,25 @@
-Running Node Server
+1. Running Node Server
 
-cd to CustomerServiceAPI
-npm install
-node ./server.js
-Server Will Start Listening on 4000
+  cd to CustomerServiceAPI
+  npm install
+  node ./server.js
+  Server Will Start Listening on 4000
 
-Running Clientside Application
+2. Running Clientside Application
 
-cd to CustomerApp
+  cd to CustomerApp
 
-npm install
+  npm install
 
-ng serve -o
+  ng serve -o
 
-Angular Server Will start on 4200
+3. Angular Server Will start on 4200
 
-Go to http://localhost:4200/users
+  Go to http://localhost:4200/users
 
-This screen will list all the Customers Added to Database (Mongo Atlas in this assignment)
+  This screen will list all the Customers Added to Database (Mongo Atlas in this assignment)
 
-a) To Add new Customer - Click on Create Customer , Name and Email field are manditory.
-b) To Get All Customer  - Click on Customers, This will List all the Customers.
-c) To Edit Customer -    Click on Edit Action on get all customer screen.
-d) To Delete Customer-   Click on Delete Action on get all ascreen.
+  a) To Add new Customer - Click on Create Customer , Name and Email field are manditory.
+  b) To Get All Customer  - Click on Customers, This will List all the Customers.
+  c) To Edit Customer -    Click on Edit Action on get all customer screen.
+  d) To Delete Customer-   Click on Delete Action on get all ascreen.
