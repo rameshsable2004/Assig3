@@ -1,4 +1,4 @@
-1. Running Node Server
+  1. Running Node Server
 
   cd to CustomerServiceAPI
   
@@ -8,7 +8,7 @@
   
   Server Will Start Listening on 4000
   
-2. Running Clientside Application
+  2. Running Clientside Application
 
   cd to CustomerApp
   
@@ -16,7 +16,7 @@
   
   ng serve -o
   
-3. Angular Server Will start on 4200
+  3. Angular Server Will start on 4200
 
   Go to http://localhost:4200/users
 
